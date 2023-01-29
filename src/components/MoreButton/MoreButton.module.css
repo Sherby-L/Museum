@@ -1,0 +1,27 @@
+.button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  position: relative;
+  background-color: white;
+  padding: 10px 0;
+}
+.button::after {
+  content: '';
+  border: 1px solid #646464;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -3px;
+  left: 100px;
+}
+.button::before {
+  content: '';
+  position: absolute;
+  background: url(../../../public/icons/ArrowBlack.svg) no-repeat;
+  width: 41px;
+  height: 10px;
+  top: 15px;
+  left: 83px;
+}

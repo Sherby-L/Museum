@@ -1,0 +1,14 @@
+.main {
+  background-color: #464036;
+  background: url(../../../public/back.jpg) no-repeat;
+  color: #464036;
+  padding: 150px 20px 46px;
+  background-size: cover;
+}
+.mainText {
+  font-family: 'forum font';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 128%;
+  padding-bottom: 117px;
+}

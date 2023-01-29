@@ -1,0 +1,59 @@
+.excursion {
+  padding: 0 20px;
+  background-color: #efedea;
+}
+/* .excursionTitle {
+  color: #cebfb0;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+} */
+.excursionParagrafs {
+  padding: 30px 20px 30px 20px;
+  background-color: #ffffff;
+  color: #464036;
+}
+.excursionParagrafsOnline {
+  padding-bottom: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #646464;
+}
+.excursionParagrafsTitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #464036;
+  padding-bottom: 15px;
+}
+.excursionParagrafsText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding-bottom: 18px;
+}
+.excursionParagrafsTxt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 0 0 10px 27px;
+  position: relative;
+}
+.excursionParagrafsTxt::before {
+  content: '';
+  background: url(../../../public/icons/calendar.svg) no-repeat;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.excursionParagrafsTime::before {
+  content: '';
+  background: url(../../../public/icons/time.svg) no-repeat;
+}
+.excursionParagrafsBilet::before {
+  content: '';
+  background: url(../../../public/icons/bilet.svg) no-repeat;
+}

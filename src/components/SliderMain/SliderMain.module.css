@@ -1,0 +1,23 @@
+.circleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #efedea;
+  padding: 25px 0 400px 0;
+  background: url(../../../public/podl.png) no-repeat top -160px left -100px;
+}
+.circle {
+  width: 7px;
+  height: 7px;
+  background: #646464;
+  border-radius: 50%;
+  border: 1px solid #646464;
+  margin-right: 16px;
+}
+.circleActive {
+  border: 2px solid #646464;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-right: 16px;
+}

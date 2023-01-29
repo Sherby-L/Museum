@@ -1,0 +1,19 @@
+.mainButton {
+  font-family: 'palatino font';
+  background: #927254;
+  color: white;
+  width: 100%;
+  padding: 13px 0 13px 110px;
+  text-align: left;
+  position: relative;
+  border-radius: 15px 0;
+}
+.mainButton::after {
+  content: '';
+  background: url(../../../public/icons/Arrowleft.svg) no-repeat;
+  width: 50px;
+  height: 8px;
+  position: absolute;
+  top: 16px;
+  right: 30px;
+}
